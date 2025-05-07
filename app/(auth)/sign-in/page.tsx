@@ -1,9 +1,10 @@
-import { ReactNode } from 'react'
+import AuthForm from '@/components/AuthForm'
+import React from 'react'
 
-const AuthLayout = ({children}:{children:ReactNode}) => {
+const Page = () => {
   return (
-    <div>{children}</div>
+    <AuthForm type="sign-in"/>
   )
 }
 
-export default AuthLayout
+export default Page
