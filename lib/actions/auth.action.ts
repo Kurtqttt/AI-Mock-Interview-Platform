@@ -75,7 +75,7 @@ export async function signIn(params: SignInParams) {
     if (!userRecord)
       return {
         success: false,
-        message: "User does not exist. Create an account.",
+        message: "User does not exist. Create an account instead.",
       };
 
     await setSessionCookie(idToken);

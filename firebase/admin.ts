@@ -24,3 +24,4 @@ function initFirebaseAdmin() {
 }
 
 export const { auth, db } = initFirebaseAdmin();
+//1:50:02
