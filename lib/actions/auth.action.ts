@@ -130,4 +130,4 @@ export async function isAuthenticated() {
   const user = await getCurrentUser();
   return !!user;
 }
-//1:33:29
+//1:33:29 time
