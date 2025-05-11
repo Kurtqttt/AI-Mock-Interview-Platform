@@ -41,7 +41,7 @@ const Page = () => {
       {/* <p>You haven&apos;t taken any interviews yet</p> */}
       </div>
     </section>
-console.log('Page component rendered');
+
     <section className="flex flex-col gap-6 mt-8">
     <h2>Take an Interview</h2>
     <div className="interviews-section">
